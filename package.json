@@ -1,0 +1,23 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.0.0",
+    "mongoose": "~3.6.13",
+    "body-parser": "~1.0.1"
+  },
+  "subdomain": "studentnews-rest",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "version": "0.0.0-6",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "os": "sunos",
+  "bundledDependencies": [
+    "body-parser",
+    "express",
+    "mongoose"
+  ]
+}
